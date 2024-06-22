@@ -1,3 +1,20 @@
+local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
+
+local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/laderite/siernlib/main/library.lua"))()
+
+local win = Library:Create({
+    Name = "jamkles.lua"
+})
+local Legit = win:Tab('Legit')
+local Rage = win:Tab('Rage')
+
+
+Legit:Button('Load Tool', function()
+    print(1)  
+end)
+
 
 getgenv().Prediction = 0.12389724521
 getgenv().Smoothness = 1
@@ -227,15 +244,3 @@ local NotificationHolder = loadstring(game:HttpGet("https://raw.githubuserconten
 
 local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
 
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/laderite/siernlib/main/library.lua"))()
-
-local win = Library:Create({
-    Name = "Library Name"
-})
-local Legit = win:Tab('Legit')
-local Rage = win:Tab('Rage')
-
-
-Legit:Button('Load Tool', function()
-    print(1)  
-end)
