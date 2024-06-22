@@ -35,7 +35,9 @@ end)
 
 
 
-
+local dropdown = Cam:Dropdown("Aimparts", {"Head", "UpperTorso", "HumanoidRootPart", "LowerTorso", "LeftHand", "RightHand", "LeftLowerArm", "RightLowerArm", "LeftUpperArm", "RightUpperArm", "LeftFoot", "LeftLowerLeg",  "LeftUpperLeg", "RightLowerLeg", "RightFoot",  "RightUpperLeg" },"UpperTorso", function(v)
+    jamkles.jamky_settings.aim_part(v)
+end)
 
 local jamkles = {
     jamky_settings = {
