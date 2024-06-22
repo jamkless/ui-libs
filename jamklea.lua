@@ -45,7 +45,7 @@ local jamkles = {
     smoothness = 0.9,
     aim_part = "UpperTorso",
     shake_value = 0,
-    autopred_system = true     
+    autopred_system = false     
     } 
 } 
 
