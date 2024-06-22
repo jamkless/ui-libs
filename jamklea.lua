@@ -29,14 +29,9 @@ end)
 end)
 
 
-Cam:Textbox('FOV', function(v)
-    print = v
+Cam:Textbox('Prediction ', function(v)
+    jamkles.jamky_settings.prediction = v
 end)
-
-
-
-
-
 
 
 
@@ -50,12 +45,16 @@ local jamkles = {
     shake_value = 0,
     autopred_system = true     
     } 
+} 
+
+
 
 Notification:Notify(
     {Title = "jamkles.lua", Description = "loaded"},
     {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 3, Type = "default"},
     {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 84, 84), Callback = function(State) print(tostring(State)) end}
 )
+
 
 local Players = game:GetService("Players")
 local RS = game:GetService("RunService")
@@ -213,3 +212,7 @@ while task.wait() do
 
 
 
+
+
+       
+    
