@@ -7,7 +7,7 @@ local win = Library:Create({
 })
 
 local Lock = win:Tab('Legit')
-local Cam = uitab:Section('Camlock')
+local Cam = Lock:Section('Camlock')
 
 Cam:Button('Load Tool', function()
     local Tool = Instance.new("Tool")
