@@ -6,8 +6,10 @@ local win = Library:Create({
     Name = "jamkles lua"
 })
 
-local Lock = win:Tab('Legit')
-local Cam = Lock:Section('Camlock')
+local Legit = win:Tab('Legit')
+local Cam = Legit:Section('Camlock')
+local HvH = win:Tab('Rage')
+local hvh = HvH:Section('target strafe')
 
 Cam:Button('Load Tool', function()
     local Tool = Instance.new("Tool")
