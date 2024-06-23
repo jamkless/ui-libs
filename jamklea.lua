@@ -33,7 +33,13 @@ Cam:Textbox('Prediction ', function(v)
     jamkles.jamky_settings.prediction = v
 end)
 
+Cam:Textbox('smoothness ', function(v)
+    jamkles.jamky_settings.smoothness = v
+end)
 
+Cam:Textbox('Shake ', function(v)
+    jamkles.jamky_settings.shake_value = v
+end)
 
 local dropdown = Cam:Dropdown("Aimparts", {"Head", "UpperTorso", "HumanoidRootPart", "LowerTorso", "LeftHand", "RightHand", "LeftLowerArm", "RightLowerArm", "LeftUpperArm", "RightUpperArm", "LeftFoot", "LeftLowerLeg",  "LeftUpperLeg", "RightLowerLeg", "RightFoot",  "RightUpperLeg" },"UpperTorso", function(v)
     jamkles.jamky_settings.aim_part(v)
